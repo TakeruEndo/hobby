@@ -1,8 +1,6 @@
 # SITE CONFIGURATION
-title: jooot # your site title
+title: The Swallows # your site title
 author: Jow # You :P
-paginate: 5
-paginate_path: "/page:num/"
 
 # SEO PLUGIN
 social:
@@ -18,9 +16,9 @@ social:
 
 
 tagline: >
-  Paper Suevey of Machine Learning
+  Manet, Edouard
 
-hero_img: posts/header1.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+hero_img: posts/swallows.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email:  test@domain.example # email for form submission
 

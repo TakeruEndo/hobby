@@ -65,15 +65,18 @@
   }
 
   .hero__title {
-    font-size: 1.8em;
-    color: $bg-color;
-
+    font-size: 2.0em;
+    color: #8c8c8c;
 
     @include breakpoint($md) {
       padding: 1rem 0;
       font-size: 2.625em;
       line-height: 3.125rem;
     }
+  
+  .hero__meta {
+    color: #444;
+  }
   }
 }
 
@@ -88,7 +91,7 @@
 }
 
 .blog {
-  background-color: #f9f9f9;
+  background-color: #141414;
 }
 
 .post-list {
