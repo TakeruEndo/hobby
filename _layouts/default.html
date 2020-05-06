@@ -19,14 +19,15 @@ layout: compress
 
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
+    <div class="hero lazyload scroll" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
       <div class="hero__wrap">
         <h1 class="hero__title">{{ site.title | escape }}</h1>
         <p class="hero__meta">{{ site.tagline }}</p>
       </div>
+      <a href='#top_content'><span></span></a>
     </div>
 
-    <main class="site__content">
+    <main class="site__content" id='top_content'>
       <section class="blog">
         <div class="container">
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
