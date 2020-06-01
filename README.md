@@ -19,6 +19,8 @@ $ jekyll serve
 ```
 $ gulp sass
 $ gulp js
+# 画像のリサイズ
+$ gulp img
 ```
 
 ## 参考にしたjekyllテンプレート
